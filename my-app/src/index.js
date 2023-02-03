@@ -12,10 +12,11 @@ import Test from './chapter_06/Test';
 import Accommodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ConfirmButton';
 import FunConfirmButton from './chapter_08/FunConfirmButton';
+import LandingPage from './chapter_09/LandingPAge';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FunConfirmButton />
+    <LandingPage />
   </React.StrictMode>
 );
 
